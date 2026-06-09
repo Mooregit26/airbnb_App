@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    border-bottom: 2px solid #ccc;
+    padding-block: 1rem;
+}
+
+.genLayout{
+    max-width: 1000px;
+    margin: auto;
+}
+
+nav{
+    padding-block: 1rem;
+}
+
+.innerNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.navLinks{
+    display: flex;
+    gap: 2rem;
+}
+
+.navLinks > a {
+    text-decoration:none;
+    color: #666;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.navLinks > a:first-child{
+    font-weight: 800;
+}
+
+.navIcons   {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navIcons img {
+    width: 15px;
+    height:15px;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+      border:1px solid #ddd;
+      border-radius:30px;
+    padding:10px 15px;
+     gap: 10px;
+}    
+
+.searchContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    border: 1.6px solid#ccc;
+    padding: .7rem;
+    border-radius: 2.5rem;
+    margin: auto;
+    
+}
+
+.searchInfo {
+    display: flex;
+    align-items: center;
+}
+
+.destination >h6 {
+text-transform: capitalize;
+}
+
+.destination > input, .infoCard > input{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.destination > input::placeholder, .infoCard > input::placeholder {
+    font-size: 12px;
+}
+
+.infoCard {
+    border-left: 1.7px solid #CCC;
+    padding-inline: 1rem;
+    width: 140px;
+}
+
+.searchLogo{
+    background-color: #FF385c;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.radioGroup{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1.6px solid#ccc;
+    padding: .5rem;
+    padding-top: 50px;
+     margin: auto;
+     width: 1280px;
+     height: 50px;
+}
+
+.radioHolder{
+    display: flex;
+    border:1.6px solid#ccc; 
+    width: 1100px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: .8rem;
+}
