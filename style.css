@@ -138,35 +138,66 @@ text-transform: capitalize;
     padding: .8rem;
 }
 
+.category-wrapper{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding-bottom:1px;
+    border: none;
+}
+
+.categories{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    overflow-x:auto;
+    scrollbar-width:none;
+    padding-right: 40px;
+    margin:auto;
+    padding-top: 2px;
+}
+
 .pastExpwrapper{
     padding-top: 12rem;
 }
 
 .pastExpwrapper > h1 {
     font-size: 1.5rem;
-    margin-block: 1rem;
+    margin-block: 5rem;
+    padding: 30px;
+    padding-top: 5%;
+    
 }
 
 .pastExpGrid{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
-}
+    }
 
 .pastExpCard{
     border-radius: 8px;
-    height: 50vh;
+    height: 30vh;
+}
+
+.pastExpCard > button{
+    border: none;
+    background: none;
+}
+
+.pastExpCard > h5{
+font-weight:bold;
+color: #979696;
 }
 
 .imgCont{
     border-radius: 8px;
-    height: 40vh;
+    height: 25vh;
     position: relative;
 }
 
 .imgCont > img {
     border-radius: 8px;
-    width: 100%;
+    width: 95%;
     height: 100%;
 }
 
@@ -179,6 +210,6 @@ text-transform: capitalize;
     border-radius: 100%;
     position: absolute;
     background-color: #fff;
-    top: .3rem;
-    right: .4rem;
+    top: .6rem;
+    right: .9rem;
 }
